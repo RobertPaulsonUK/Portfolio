@@ -1,6 +1,6 @@
 //Time-Count
 document.addEventListener('DOMContentLoaded', () => {
-    const setDay = new Date('Jul 10 2023 00:00:00');
+    const setDay = new Date('Sep 10 2023 00:00:00');
 
     const daysVal = document.querySelector('.day-val');
     const hoursVal = document.querySelector('.hour-val');
