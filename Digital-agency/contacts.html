@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Agency</title>
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+<div class="scrollsmooth-wrapper">
+<div class="wrapper scrollsmooth-content">
+    <header class="header">
+        <div class="container">
+            <div class="header__body">
+                <div class="header__top">
+                    <a href="index.html" class="header__top-logo _icon-logo">Didgi<span>key</span></a>
+                    <div class="header__top-actions actions-header">
+                        <span class="actions-header__name">Menu</span>
+                        <button class="menu-btn">
+                            <span></span><span></span><span></span>
+                        </button>
+                    </div>
+                </div>
+                <div class="header__dropdown">
+                    <nav class="menu">
+                        <ul class="menu-list">
+                            <li class="menu-list__item" style="--i: .4s">
+                                <a href="portfolio.html" class="menu-list__link _mod">Портфолио</a>
+                            </li>
+                            <li class="menu-list__item" style="--i: .5s">
+                                <a href="blog.html" class="menu-list__link _mod" >Блог</a>
+                            </li>
+                            <li class="menu-list__item" style="--i: .6s">
+                                <a href="marketing.html" class="menu-list__link _mod" >О маркетинге</a>
+                            </li>
+                            <li class="menu-list__item" style="--i: .7s">
+                                <a href="audit.html" class="menu-list__link" >Разбор сайта</a>
+                            </li>
+                            <li class="menu-list__item" style="--i: .8s">
+                                <a href="qwiz.html" class="menu-list__link">Квиз на разработку</a>
+                            </li>
+                            <li class="menu-list__item" style="--i: .9s">
+                                <a href="contacts.html" class="menu-list__link" >Контакты</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main main_contacts">
+        <section class="contacts">
+            <div class="container">
+                <div class="contacts__inner">
+                    <h1 class="contacts__title">Есть проект?</h1>
+                    <h2 class="contacts__subtitle">С нетерпением приступим к нему</h2>
+                    <p class="contacts__info">
+                        <span>г.Киев ул.Свободы 37</span>
+                        +38(066) 364 19 19 / info@DidgiKey
+                    </p>
+                    <button class="btn contacts-btn _modal-open">Связаться с нами</button>
+                </div>
+            </div>
+        </section>
+        <div class="overlay">
+            <div class="modal">
+                <div class="modal__body">
+                    <a href="#" class="modal-close__btn _center"><img src="images/icons/close.svg" alt=""></a>
+                    <h2 class="modal__title">Обратная связь</h2>
+                    <p class="modal__subtitle">Наши менеджеры с радостью ответят на все ваши попросы</p>
+                    <form class="modal-form">
+                        <label class="modal-form__label _icon-user">
+                            <input type="text" placeholder="Имя" class="text-input name-input" required>
+                        </label>
+                        <label class="modal-form__label _icon-phone">
+                            <input type="tel" placeholder="Телефон" class="text-input phone-input" maxlength="16" required>
+                        </label>
+                        <label class="modal-form__label _icon-mail">
+                            <input type="email" placeholder="E-mail" class="text-input mail-input" required>
+                        </label>
+                        <label class="modal-form__label _icon-chat">
+                            <textarea name="modal-textarea" id="modal-textarea"  class="modal-textarea text-input" cols="30" rows="10" placeholder="Здесь могут быть ваши пожелания и комментарии..." required></textarea>
+                        </label>
+                        <button class="btn modal-btn" type="submit">Отправить</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__inner-item">
+                    <a href="index.html" class="footer__inner-link _icon-logo">Didgi<span>key</span></a>
+                    <p class="footer__inner-name">Digital агенство полного цикла</p>
+                </div>
+                <div class="footer__inner-info">
+                    <p class="footer__inner-text">
+                        © 1999-2020 Интернет-компания DidgiKey
+                    Информация на сайте не является публичной офертой
+                    Актуальные цены уточняйте у менеджеров
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+</div>
+<script src="js/main.min.js"></script>
+</body>
+</html>
